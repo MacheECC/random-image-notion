@@ -1,5 +1,27 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Daily Image</title>
+    <style>
+        body { text-align: center; padding: 20px; }
+        img { max-width: 100%; border-radius: 10px; }
+    </style>
+</head>
 <body>
-  <script src="random-image.js"></script>
+    <script>
+        const images = [
+            "https://raw.githubusercontent.com/macheecc/random-image-notion/main/image1.jpg",
+            "https://raw.githubusercontent.com/macheecc/random-image-notion/main/image2.jpg",
+            "https://raw.githubusercontent.com/macheecc/random-image-notion/main/image3.jpg"
+        ];
+
+        const date = new Date();
+        const seed = date.getFullYear() * 1000 + date.getMonth() * 100 + date.getDate();
+        const index = seed % images.length;
+
+        document.write(`<img src="${images[index]}" alt="Daily Random Image">`);
+    </script>
 </body>
 </html>
