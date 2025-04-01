@@ -10,5 +10,7 @@ const date = new Date();
 const seed = date.getFullYear() * 1000 + date.getMonth() * 100 + date.getDate();
 const index = seed % images.length;
 
-// Insert the image into the page
-document.write(`<img src="${images[index]}" style="width:100%; border-radius:10px;">`);
+// Wait for the page to load and insert the image properly
+window.onload = function () {
+  document.body.innerHTML = `<img src="${images[index]}" style="width:100%; border-radius:10px;">`;
+};
