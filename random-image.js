@@ -1,8 +1,8 @@
 const images = [
-  "https://1drv.ms/i/s!At9wWw_9eJW9kLNtQLrKV7QMYDD8YA?e=AhckFa",
-  "https://1drv.ms/i/s!At9wWw_9eJW9lLoOeMX1mjDWTHiWTA?e=o6KQw2",
-  "https://1drv.ms/i/s!At9wWw_9eJW9lLoN3j_D-Ah4sspKMQ?e=dJurPB",
-  "https://1drv.ms/i/s!At9wWw_9eJW9lLoExue3NOY2H78Z1A?e=VGFcH1"
+  "https://drive.google.com/file/d/1sa12qnkMZ8-AMr1pWjffFJe-pZNft_tp/view?usp=share_link",
+  "https://drive.google.com/file/d/16jDTrW1-cIc0IYbaBOZyV6VRqj4pZq1C/view?usp=share_link",
+  "https://drive.google.com/file/d/1P0JYZDQIuFZGXlZD04p82VBQ2Ku0wAj9/view?usp=share_link",
+  "https://drive.google.com/file/d/1BxwHsoZqGDswkhJ7do28rO5iyVVAb9gj/view?usp=share_link"
 ];
 
 // Generate a consistent random image per day
