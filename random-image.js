@@ -1,11 +1,8 @@
 const images = [
-  "https://raw.githubusercontent.com/macheecc/random-image-notion/main/Colossians 3_16 widescreen.png",
   "https://raw.githubusercontent.com/macheecc/random-image-notion/main/Colossians_2_10.jpg",
   "https://raw.githubusercontent.com/macheecc/random-image-notion/main/Colossians_2_3.jpg",
   "https://raw.githubusercontent.com/macheecc/random-image-notion/main/Colossians_2_6.jpg",
-  "https://raw.githubusercontent.com/macheecc/random-image-notion/main/Colossians_2_9.jpg",
-  "https://raw.githubusercontent.com/macheecc/random-image-notion/main/Ecclesiastes 12_1 widescreen.png",
-  "https://raw.githubusercontent.com/macheecc/random-image-notion/main/Genesis 22_8 widescreen.png"
+  "https://raw.githubusercontent.com/macheecc/random-image-notion/main/Colossians_2_9.jpg"
 ];
 
 // Generate a consistent random image per day
